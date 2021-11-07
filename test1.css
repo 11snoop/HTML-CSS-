@@ -1,0 +1,351 @@
+body {
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+header {
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 30px
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.heder-logo a {
+    transition: all 0.5s;
+}
+.heder-logo a:hover {
+    opacity: 0.7;
+}
+.heder-logo-pc {
+    width:185px;
+    height: 20px;
+    margin-top: 21px;
+    margin-left: 36px;
+}
+.heder-logo-sp {
+    display: none;
+}
+.header-menu {
+    float: right;
+}
+.menu-icon {
+    display: none;
+}
+.header-menu li {
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    font-weight: 600;
+    vertical-align: middle;
+    margin-top: 25px;
+    margin-right: 39px;
+    line-height: 13.7px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+.header-menu a {
+    text-decoration: none;
+    color: #222;
+}
+.header-menu span {
+    font-size: 10px;
+    font-weight: 600;
+}
+.counseling {
+    background-color: #f79314;
+    padding: 13px 20px;
+    border-radius: 25px;
+}
+#counseling-top {
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+}
+.header-image-sp {
+    display: none;
+}
+.contents {
+    margin-top: 53px;
+    margin-left: 200px;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+}
+.contents h2 {
+    text-align: center;
+    float: left;
+    line-height: 55px;
+}
+.clear {
+    clear: left;
+}
+.contents img {
+    vertical-align: middle;
+    margin-top: 11px;
+}
+.contents-center {
+    width: 200px;
+    height: 200px;
+    margin: 0px 8px;
+}
+.contents-link {
+    margin-top: 45px;
+    margin-left: 200px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.contents-link a {
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.contents-link a:hover {
+    opacity: 0.7;
+}
+.contents-counseling {
+    color: #fff;
+    background-color: #F79214;
+    padding: 24px 50px;
+    border-radius: 38px;
+}
+.contents-document {
+    margin-left: 11px;
+    color: #333333;
+    border: 1px solid #E0E0E0;
+    padding: 24px 25px;
+    border-radius: 38px;
+}
+.terms {
+    margin-top: 90px;
+    margin-left: 200px;
+    color: #A2A2A4;
+    font-size: 12px;
+}
+footer {
+    background-color: #f79314;
+    height: 250px;
+    color: #fff;
+}
+.footer-name {
+    padding-top: 45px;
+    margin-left: 200px;
+    float: left;
+}
+.footer-name h1 {
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.footer-name span {
+    font-size: 40px;
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.footer-name p {
+    margin-top: 15px;
+    font-weight: 700;
+    line-height: 26px;
+    font-size: 14px
+}
+.footer-link {
+    float: right;
+    margin-top: 100px;
+    margin-right: 180px;
+}
+.footer-link a {
+    text-decoration: none;
+    color: #f79314;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    transition: all 0.5s;
+    display:block;
+    background-color: #fff;
+    padding: 10px 64px;
+    letter-spacing: 4px;
+    line-height: 1.3;
+    text-align: center;
+    border-radius: 30px;
+}
+.footer-link a:hover{
+    opacity: 0.7;
+}
+.footer-link span {
+    display:block;
+    font-size: 12px;
+    letter-spacing: 0px;
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+@media screen and (max-width:1176px) {
+    .footer-link {
+        margin: 100px 0px 0px 0px;
+    }
+    
+}
+@media screen and (max-width:1080px) {
+    header {
+        background-position: 50% 60px;
+        background-repeat: no-repeat;
+    }
+    .header-menu ul {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        position: relative;
+        width: 30px;
+        height: 21px;
+        z-index: 100;
+        margin-right: 35px;
+        margin-top: 20px;
+    }
+    .menu-icon-line:first-child {
+        top: 0;
+    }
+    .menu-icon-line {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #222;
+        transform: translate(0, -50%);
+        border-radius: 10px;
+        transition: top 0.2s, transform 0.2s, opacity 0.3s;
+        top: 50%;
+    }
+    .menu-icon-line:last-child {
+        top: 100%;
+    }
+    .contents {
+        margin-top: 110px;
+        margin-left: 50px;
+    }
+    .contents-link {
+        margin-left: 50px;
+    }
+    .terms {
+        margin-left: 50px;
+    }
+    .footer-name {
+        margin-left: 50px;
+    }
+    .footer-link {
+        margin-right: 60px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    footer {
+        padding-bottom: 30px;
+    }
+    .footer-name {
+        float: none;
+    }
+    .footer-name br {
+        display: none;
+    }
+    .footer-link {
+        float: none;
+        margin-top: 0px;
+        margin-left: 380px;
+        width: 250px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .heder-logo-pc {
+        display: none;
+    }
+    .heder-logo-sp {
+        display: block;
+        height: 16px;
+        margin-top: 20px;
+        margin-left: 20px;
+        float: left;
+        padding-bottom: 17px;
+    }
+    .menu-icon {
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+    header {
+        background-image: none;
+    }
+    .header-image-sp {
+        display: block;
+    }
+    .header-image-sp img {
+        width: 100vw;
+        
+    }
+    .contents {
+        margin-top: 0px;
+        position: absolute;
+        top: 560px;
+        left: 0px;
+        margin-left: 20px;
+    }
+    .contents h2 {
+        font-size: 25px;
+        line-height: 36px;
+        float: none;
+    }
+    .contents img {
+        margin-top: 15px;
+    }
+    .contents-right {
+        width: 26vw;
+    }
+    .contents-center {
+        width: 38vw;
+        height: 38vw;
+        margin: 0px 14px;
+    }
+    .contents-left {
+        width: 26vw;
+    }
+    .contents-link {
+        margin: 55px 10px 0px 10px;
+    }
+    .contents-link a {
+        display: block;
+        text-align: center;
+    }
+    .contents-counseling {
+    padding: 22px;
+    border-radius: 38px;
+    margin: 0px 10px;
+    font-size: 14px;
+    }
+    .contents-document {
+    padding: 12px;
+    border-radius: 38px;
+    margin: 10px 10px 0px 10px;
+    font-size: 14px;
+    }
+    .terms {
+        margin: 20px 20px 5px 20px;
+    }
+    footer {
+        height: 235px;
+    }
+    .footer-name {
+        margin: 0px;
+        padding-top: 30px;
+        text-align: center;
+    }
+    .footer-name h1 {
+        font-size: 30px;
+    }
+    .footer-name span{
+        font-size: 25px;
+    }
+    .footer-name p {
+        text-align: left;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 15px;
+    }
+    .footer-link {
+        margin: 0 auto;
+        margin-top: 34px;
+    }
+}
